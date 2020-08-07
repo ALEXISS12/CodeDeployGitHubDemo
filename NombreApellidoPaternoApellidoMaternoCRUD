@@ -1,0 +1,13 @@
+<form id="crud_form" role="form">
+  <div class="alert hide" id="ajax_crud"></div>
+    <div class="form-group">
+      <label class="cole">Ejemplo:</label>
+      <?= Bootstrap::basic_input('text','ejemplo') ?>
+    </div>
+    <div class="form-group">
+      <button type="button" id="crud" class="btn btn-primary">Enviar</button>
+    </div>
+</form>
+
+El javascript creado por el generador:
+<script src="views/app/js/crud/crear.js"></script>
